@@ -10,13 +10,13 @@ public class Main {
       
        Scanner clavier = new Scanner(System.in);
      
-       //le fait de donner la quantité du produit et l'afficher
+       //le fait de donner la quantitÃ© du produit et l'afficher
 
        System.out.println("the quatity is");
        int quantity =clavier.nextInt();
        
        
-       //le fait de donner l'unité du prix du produit et l'afficher
+       //le fait de donner l'unitÃ© du prix du produit et l'afficher
 
        System.out.println("the unit price is:");
        double unitprice =clavier.nextDouble();
@@ -27,8 +27,7 @@ public class Main {
        Produit produit_a_acheter =new Produit(quantity,unitprice);
        ;
       
-       
-       //le fait de calculer le prix total pour ce produit en faisant appel à  la methode calculateTotalPrice()
+       //le fait de calculer le prix total pour ce produit en faisant appel Ã Â  la methode calculateTotalPrice()
 
        System.out.println("the total price is :" + produit_a_acheter.calculateTotalPrice(quantity,unitprice) + "TDN");
                
